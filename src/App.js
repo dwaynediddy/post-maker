@@ -1,12 +1,13 @@
-import React from 'react';
+import React from 'react'
+import PostList from './features/posts/PostList'
 
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      Hello world
-    </div>
+    <main className="App">
+      <PostList />
+    </main>
   );
 }
 
