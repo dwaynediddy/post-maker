@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: #fff;
 }
 
 .postForm {
@@ -8,12 +9,18 @@
     flex-direction: column;
 }
 
+.postsCard {
+    padding: 1rem 0;
+}
+
 article {
-    border: 1px solid rgb(222, 214, 214);
-    background-color: rgb(48, 46, 46);
+    border: 1px solid rgb(179, 174, 174);
+    background-color: rgb(40, 37, 37);
     color: white;
     height: 16rem;
     width: 16rem;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
 }
 
 .posts {
@@ -26,6 +33,18 @@ article {
         display: flex;
         flex-direction: column;
         margin-top: 6rem;
-
 }
 
+.postBtn {
+    border: 1px solid rgb(179, 174, 174);
+    border-radius: 1.25rem;
+    height: 2rem;
+    width: 10rem;
+    color: white;
+    transition: 0.5s ease-in-out;
+    margin-top: 0.5rem;
+}
+
+.postBtn:hover {
+    background-color: rgb(62, 6, 118);
+}

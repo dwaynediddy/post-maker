@@ -62,6 +62,7 @@ const AddPostForm = () => {
                 rows={8}
             />
             <button 
+                className="postBtn"
                 type='button' 
                 onClick={onSavePostClicked}
                 disabled={!canSave}
