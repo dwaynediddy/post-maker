@@ -19,7 +19,7 @@ const PostList = () => {
       </article>
   ))
   return (
-    <div>
+    <div className="posts">
         <h2>Posts</h2>
         {renderPosts}
     </div>

@@ -39,7 +39,7 @@ const AddPostForm = () => {
   return (
     <section>
         <h2>Add Post</h2>
-        <form>
+        <form className="postForm">
             <label htmlFor="postTitle">Post Title: </label>
             <input
                 type="text"
@@ -59,6 +59,7 @@ const AddPostForm = () => {
                 name="postContent" 
                 value={content}
                 onChange={onContentChange}
+                rows={8}
             />
             <button 
                 type='button' 

@@ -9,7 +9,6 @@ function App() {
     <main className="App">
       <AddPostForm />
       <PostList />
-
     </main>
   );
 }
